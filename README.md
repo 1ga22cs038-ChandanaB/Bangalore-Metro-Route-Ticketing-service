@@ -32,7 +32,7 @@ It allows users to search routes, calculate fares, and book tickets easily.
 ---
 ## Screenshots
 
-![metro1](screenshots/metro1.png)
-![metro2](screenshots/metro2.png)
-![metro3](screenshots/metro3.png)
+![metro1](screenshots/metro1.jpeg)
+![metro2](screenshots/metro2.jpeg)
+![metro3](screenshots/metro3.jpeg)
 
