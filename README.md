@@ -32,7 +32,7 @@ It allows users to search routes, calculate fares, and book tickets easily.
 ---
 ## Screenshots
 
-![metro1](screenshots/metro1.jpeg)
-![metro2](screenshots/metro2.jpeg)
-![metro3](screenshots/metro3.jpeg)
+![metro1]([screenshots/metro1.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro1.jpeg))
+![metro2]([(screenshots/metro2.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro2.jpeg))
+![metro3]([screenshots/metro3.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro3.jpeg))
 
