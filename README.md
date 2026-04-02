@@ -30,9 +30,13 @@ It allows users to search routes, calculate fares, and book tickets easily.
 - 🌐 REST API integration
 
 ---
-## Screenshots
 
-![metro1]([screenshots/metro1.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro1.jpeg))
-![metro2]([(screenshots/metro2.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro2.jpeg))
-![metro3]([screenshots/metro3.jpeg](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro3.jpeg))
+
+## 📸 Screenshots
+
+![Metro 1](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro1.jpeg?raw=true)
+
+![Metro 2](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro2.jpeg?raw=true)
+
+![Metro 3](https://github.com/1ga22cs038-ChandanaB/Bangalore-Metro-Route-Ticketing-service/blob/main/screenshot/metro3.jpeg?raw=true)
 
