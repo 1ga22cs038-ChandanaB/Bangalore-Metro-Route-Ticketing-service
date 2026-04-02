@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Banglore Metro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+      
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    
+  </head>
+  <body>
+    <div id="auth-section">
+      <h1>Bangalore Metro</h1>
+      <!-- Login Form -->
+      <div id="login-form">
+        <h2>Login</h2>
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" />
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" />
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="javascript:void(0)" onclick="toggleForms()">Register here</a></p>
+      </div>
+      
+      <!-- Registration Form -->
+      <div id="register-form" style="display: none;">
+        <h2>Register</h2>
+        <label for="register-username">Username:</label>
+        <input type="text" id="register-username" />
+        <label for="register-password">Password:</label>
+        <input type="password" id="register-password" />
+        <button onclick="register()">Register</button>
+        <p>Already have an account? <a href="javascript:void(0)" onclick="toggleForms()">Login here</a></p>
+      </div>
+    </div>
+
+    <!-- Metro Fare and Route Calculation -->
+    <div id="metro-section" style="display: none;">
+      <h1>Bangalore Metro Fare Calculation</h1>
+      <div class="form">
+        <label for="source">Source Station:</label>
+        <select id="source">
+          <option value="">Select Source Station</option>
+          
+          <!-- Add more source stations here -->
+        </select>
+        <label for="destination">Destination Station:</label>
+        <select id="destination">
+          <option value="">Select Destination Station</option>
+          
+          <!-- Add more destination stations here -->
+        </select>
+        <input type="button" value="Calculate" onclick="calculate()" />
+      </div>
+      <div class="results">
+        <h2>Results</h2>
+        <p><b>Fare:</b> <span id="fare"></span></p>
+        <p><b>Distance:</b> <span id="distance"></span></p>
+        <p><b>Route:</b> <span id="route"></span></p>
+        <img src="file:///C:/Users/Chandana/Downloads/namma_metro_interactive1.html" alt="map" width="800">
+      <button onclick="bookTicket()">BOOK TICKET</button>
+      </div>
+      
+        
+        </div>
+              
+            </div>
+            
+            </div>
+      </div>
+
+
+    
+    
+      
+    
+      
+    <!-- Ticket Booking Page -->
+<div id="ticket-page" style="display: none;">
+  <h1>Ticket Details</h1>
+  <p><b>Name:</b> <span id="ticket-username"></span></p>
+  <p><b>Source:</b> <span id="ticket-source"></span></p>
+  <p><b>Destination:</b> <span id="ticket-destination"></span></p>
+  <p><b>Fare:</b> <span id="ticket-fare"></span></p>
+  <p><b>Distance:</b> <span id="ticket-distance"></span></p>
+  <div id="message">
+    <p>Your ticket is booked successfully!</p>
+    <p>Thank you and visit again!</p>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

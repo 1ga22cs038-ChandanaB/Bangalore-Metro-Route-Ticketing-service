@@ -1,0 +1,26 @@
+function toggleForms() {
+    const loginForm = document.getElementById('login-form');
+    const registerForm = document.getElementById('register-form');
+    loginForm.style.display = loginForm.style.display === 'none' ? 'block' : 'none';
+    registerForm.style.display = registerForm.style.display === 'none' ? 'block' : 'none';
+  }
+
+  function login() {
+    document.getElementById('auth-section').style.display = 'none';
+    document.getElementById('metro-section').style.display = 'block';
+  }
+
+  function register() {
+    alert('Registration successful! Please login to continue.');
+    toggleForms();
+  }
+
+  function calculate() {
+    const fare = 50; // Example fare calculation
+    const distance = 10; // Example distance calculation
+
+    document.getElementById('fare').innerText = `${fare} INR`;
+    document.getElementById('distance').innerText = `${distance} km`;
+    document.getElementById('route').innerText = 'Example Route';
+  }
+

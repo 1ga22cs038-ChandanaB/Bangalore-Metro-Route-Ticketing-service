@@ -1,0 +1,64 @@
+{
+    "Namma Metro Station": {
+      "'MG Road Station'": 10,
+      "'Jayanagar Station'": 5
+    },
+   " 'MG Road Station'": {
+      "'Namma Metro Station'": 10,
+      "'Jayanagar Station'": 10,
+      "'Lakshmi Nagar Station'": 20
+    },
+    "'Jayanagar Station'": {
+      "'Namma Metro Station'": 5,
+      "'MG Road Station'": 10,
+      "'Lakshmi Nagar Station'": 10,
+      "'Peenya Industry Station'": 20
+    },
+    "'Lakshmi Nagar Station'": {
+      "'MG Road Station'": 20,
+      "'Jayanagar Station'": 10,
+      "'Peenya Industry Station'": 10,
+     " 'Silk Board Station'": 30
+    },
+    "'Peenya Industry Station'": {
+     " 'Jayanagar Station'": 20,
+      "'Lakshmi Nagar Station'": 10,
+      "'Silk Board Station'": 20
+    },
+    "'Silk Board Station'": {
+      "'Lakshmi Nagar Station": 30,
+      "'Peenya Industry Station'": 20,
+     " 'KR Puram Station'": 20
+    },
+    "'KR Puram Station'": {
+     " 'Silk Board Station'": 20,
+      "'Hosahalli Station'": 20
+    },
+    "'Hosahalli Station'": {
+      "'KR Puram Station'": 20,
+      "'Sarjapur Road Station'": 20
+    },
+    "'Sarjapur Road Station'": {
+     " 'Hosahalli Station'": 20,
+      "'Kengeri Station'": 20
+    },
+    "'Kengeri Station'": {
+      "'Sarjapur Road Station'": 20,
+      "'Yelagirinagar Station'": 20
+    },
+    "'Yelagirinagar Station'": {
+      "'Kengeri Station'": 20,
+      "'Mahadevapura Station'": 20
+    },
+    "'Mahadevapura Station'": {
+      "'Yelagirinagar Station'": 20,
+      "'Hosakote Station'": 20
+    },
+   " 'Hosakote Station'": {
+      "'Mahadevapura Station'": 20,
+      "'Attibele Station'": 20
+    },
+    "'Attibele Station'": {
+      "'Hosakote Station'": 20
+    }
+  }
